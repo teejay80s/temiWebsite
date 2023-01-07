@@ -53,3 +53,39 @@ function run2(){
     
 }
 setInterval(run2,2000)
+
+// import* as React from 'react'
+// import styles from "./backgroundSlider.module.scss"
+
+// const BackgroundSlide = () => {
+//   const slide1 = `${require('../../assets/adult.jpg')}`;
+//   const slide2 = `${require('../../assets/insurer.jpg')}`;
+//   const slide3 = `${require('../../assets/many.jpg')}`;
+  
+//   const slider = [slide1,slide2,slide3]
+//   console.log(slider.length)
+//   let index = 1
+  
+//   function changeImg () {
+//      index ++;
+//     if (index > slider.length - 1){
+//          index = 0
+//     }
+//     styles.mybackground = '{{transform = `translateX(${-index * 800}px)`}}'
+      
+//   } 
+//   const plus = () =>{
+//     index ++
+//   }
+//   // setInterval(changeImg,300)
+ 
+//   return (
+//     <div className={styles.mybackground} style={{backgroundImage:`url(${slider[index]})`, width: `${400}px`, height: `${300}px`,backgroundPosition: 'center',
+//     backgroundSize: 'cover',backgroundRepeat: 'no-repeat'}}> this is it
+//     <button onClick={plus}>click me</button>
+
+//     </div>
+//   )
+// }
+
+// export default BackgroundSlide;
